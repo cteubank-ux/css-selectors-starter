@@ -362,7 +362,7 @@ section#first-section h2 {
     select the unordered list in the navigation using the tag names and child/descendant selector
 */
 /* ----- */
-{
+nav ul {
     display: block;
     list-style-type: none;
     padding: 0;
@@ -375,7 +375,7 @@ section#first-section h2 {
     select the list items in the navigation using the tag names and child/descendant selector
 */
 /* ----- */
-{
+nav ul {
     display: block;
     width: 100%;
 }
@@ -386,7 +386,7 @@ section#first-section h2 {
     select the anchor tags in the navigation using the tag names and child/descendant selectors
 */
 /* ----- */
-{
+nav > a {
     display: block;
     width: 90%;
     margin: 16px auto;
@@ -407,7 +407,7 @@ section#first-section h2 {
     select the anchor tags in the navigation on hover using the tag names, pseudo-class, and child/descendant selectors
 */
 /* ----- */
-{
+nav a:hover {
     background-color: var(--white);
     color: var(--green);
     box-shadow: var(--box-shadow-sm);
@@ -422,7 +422,7 @@ section#first-section h2 {
     select the h2 in the third section using the class name selector
 */
 /* ----- */
-{
+.section-block:nth-of-type(3) h2 {
     padding: 12px 0;
     background-color: var(--dv-fuchsia);
     color: var(--white);
