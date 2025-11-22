@@ -765,7 +765,7 @@ button[type="submit"]:focus  {
     select the table in the table styles section using the element/tag name selector
 */
 /* ----- */
-{ 
+table {
     border-collapse: collapse;
     width: 100%;
 }
@@ -776,7 +776,7 @@ button[type="submit"]:focus  {
     select the caption in the table styles section using the element/tag name selector
 */
 /* ----- */
-{ 
+caption {
     font-weight: bold;
     font-size: 1.25rem;
     margin-bottom: 8px;
@@ -788,7 +788,7 @@ button[type="submit"]:focus  {
     select the table header cells in the table styles section using the element/tag name, descendant, and ID selectors
 */
 /* ----- */
-{ 
+#tableStylesSection th {
     background-color: var(--blue);
     color: var(--white);
 }
@@ -799,7 +799,7 @@ button[type="submit"]:focus  {
     select the odd table rows in the table body of the table styles section using the element/tag name and the pseudo-class selectors
 */
 /* ----- */
-{ 
+tbody tr:nth-child(odd) {
     background-color: var(--dv-orange);
 }
 
@@ -809,7 +809,7 @@ button[type="submit"]:focus  {
     select the first column in the table body of the table styles section using the element/tag name and the pseudo-class selectors
 */
 /* ----- */
-{ 
+table tbody td:first-child {
     font-weight: bold;
 }
 
@@ -819,7 +819,7 @@ button[type="submit"]:focus  {
     select the table heading cells (th) and the table data cells in the table styles section using the element/tag name and multiple element selectors
 */
 /* ----- */
-{ 
+table-styles th, .table-styles td {
     border: 1px solid var(--dk-gray);
     padding: 4px;
 }
@@ -830,7 +830,7 @@ button[type="submit"]:focus  {
     select the table footer in the table styles section using the element/tag name selector
 */
 /* ----- */
-{ 
+tfoot {
     font-weight: bold;
 }
 
@@ -843,7 +843,7 @@ button[type="submit"]:focus  {
     select all of the divs in the border styling section using the ID, descendant, and tag name selectors
 */
 /* ----- */
-{
+#borderStylingSection div {
     display: flex;
     justify-content: center;
     align-items: center;
