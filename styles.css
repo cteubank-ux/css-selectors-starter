@@ -703,7 +703,7 @@ button[type="submit"]:focus  {
     select the section with the ID of software by its ID 
 */
 /* ----- */
-{
+#software {
     margin-top: 16px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -716,7 +716,10 @@ button[type="submit"]:focus  {
     select the links in the software section using the ID, tag name, and child/descendant selector
 */
 /* ----- */
-{
+#software-section a {
+
+}
+#software-section > a {
     width: 100px;
     height: auto;
     margin: 0 auto;
@@ -742,7 +745,7 @@ button[type="submit"]:focus  {
     select the SVGs in the software section using the ID, tag name, and descendant selectors
 */
 /* ----- */
-{
+#software svg {
     stroke: var(--dk-gray);
 }
 
