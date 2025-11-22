@@ -604,7 +604,7 @@ button[type="submit"]:focus  {
     select the first list item in the list styling container using the ID, tag name, and pseudo-class selectors
 */
 /* ----- */
-{
+#more-styling > .list-styling-section:first-child {
     color: var(--purple);
 }
 
@@ -614,7 +614,7 @@ button[type="submit"]:focus  {
     select the last list item in the list styling container using the ID, tag name, and pseudo-class selectors
 */
 /* ----- */
-{
+#more-styling .list-styling-section.some-class:last-of-type {
     color: var(--dv-lt-blue);
 }
 
