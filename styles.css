@@ -627,7 +627,7 @@ button[type="submit"]:focus  {
     select all of the divs in the more styling section using the ID, descendant, and tag name selectors
 */
 /* ----- */
-{
+#more-styling div {
     display: flex;
     justify-content: center;
     align-items: center;
